@@ -1,0 +1,170 @@
+body{
+	/*background-color: AliceBlue;*/
+	background-image:url("images/diamonds.png");
+	background-repeat:repeat-y;
+}
+
+header{
+	min-width:520px;
+}
+
+#pagetitle{
+	/*margin-left:-9px; */
+	height:50px;
+	line-height:10px;
+	width:250px;
+	background: DeepSkyBlue; /* #00bfff*/
+	float:left;
+}
+
+.button{
+	height:50px;
+	line-height:10px;
+	width:100px;
+	float:left;
+	background-color:DeepSkyBlue;
+	margin-left: 3px;
+}
+
+#logo{
+	height:50px;
+	width:52px;
+	float:left;
+	background-color:DeepSkyBlue;
+	margin-left: 3px;
+	position: relative;
+}
+
+#goldfishimage{
+	position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+
+}
+
+#headerbox{
+	height:50px;
+	line-height:15px;
+	background-color:DeepSkyBlue;
+	margin-left:514px;
+}
+
+
+.headerlink:link{/*normal unvisted link*/
+	color:black;
+	text-decoration: none;
+}
+
+.headerlink:visited{/*visted link*/
+	color:black;
+	text-decoration: none;
+}
+
+.headerlink:hover{/*link when mouse is hovering over it*/
+	color:white;
+	text-decoration: none;
+}
+
+.headerlink:active{/*link the moment it is clicked*/
+	color:white;
+	text-decoration: none;
+}
+
+.headerlinkbold:link{/*normal unvisted link*/
+	color:black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.headerlinkbold:visited{/*visted link*/
+	color:black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.headerlinkbold:hover{/*link when mouse is hovering over it*/
+	color:white;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.headerlinkbold:active{/*link the moment it is clicked*/
+	color:white;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+article{
+	margin-left: 200px;
+	padding:10px;
+	margin-right:200px;
+	max-height:3000px;
+}
+
+h1{
+	text-align:center;
+	font-family:"candara",Sans-Serif;
+	font-size:30px;
+	font-weight:normal;
+}
+
+#newerunclickable{
+	font-family:"candara",Sans-Serif;
+	font-size:18px;
+	font-weight:normal;
+	float: left;
+	color: gray;
+}
+
+#olderunclickable{
+	font-family:"candara",Sans-Serif;
+	font-size:18px;
+	font-weight:normal;
+	float: right;
+	color: gray;
+}
+
+#newerlink{
+	font-family:"candara",Sans-Serif;
+	font-size:18px;
+	font-weight:normal;
+	float: left;
+}
+
+#olderlink{
+	font-family:"candara",Sans-Serif;
+	font-size:18px;
+	font-weight:normal;
+	float: right;
+}
+
+
+p{
+	font-family:"candara",Sans-Serif;
+	font-size:20px; 
+	font-weight:normal;
+}
+
+a:link{/*normal unvisted link*/
+	color:black;
+	text-decoration: none;
+}
+
+a:visited{/*visted link*/
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{/*link when mouse is hovering over it*/
+	color:DeepSkyBlue; /*idea: use javascript to randomly choose from
+	DeepSkyBlue and the orange the fish is*/
+	text-decoration: none;
+}
+
+a:active{/*link the moment it is clicked*/
+	color:white;
+	text-decoration: none;
+}
