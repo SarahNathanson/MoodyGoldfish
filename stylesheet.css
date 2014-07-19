@@ -53,23 +53,45 @@ header{
 }
 
 
-.headerlink:link:visited{/*normal unvisted link*/
+.headerlink:link{/*normal unvisted link*/
 	color:black;
 	text-decoration: none;
 }
 
-.headerlink:hover:active{/*link when mouse is hovering over it*/
+.headerlink:visited{/*normal unvisted link*/
+	color:black;
+	text-decoration: none;
+}
+
+.headerlink:hover{/*link when mouse is hovering over it*/
 	color:white;
 	text-decoration: none;
 }
 
-.headerlinkbold:link:visited{/*normal unvisted link*/
+.headerlink:active{/*link when mouse is hovering over it*/
+	color:white;
+	text-decoration: none;
+}
+
+.headerlinkbold:link{/*normal unvisted link*/
 	color:black;
 	text-decoration: none;
 	font-weight:bold;
 }
 
-.headerlinkbold:hover:active{/*link when mouse is hovering over it*/
+.headerlinkbold:visited{/*normal unvisted link*/
+	color:black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.headerlinkbold:hover{/*link when mouse is hovering over it*/
+	color:white;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.headerlinkbold:active{/*link when mouse is hovering over it*/
 	color:white;
 	text-decoration: none;
 	font-weight:bold;
