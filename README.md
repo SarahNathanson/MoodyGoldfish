@@ -1,4 +1,6 @@
 MoodyGoldfish
 =============
 
-Website created by Sarah Nathanson.
+Website in progress.
+
+Created by Sarah Nathanson.
