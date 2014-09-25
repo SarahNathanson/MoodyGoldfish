@@ -99,7 +99,9 @@ header{
 
 article{
 	margin-left: 200px;
-	padding:10px;
+	padding:30px;
+	padding-left: 50px;
+	padding-right: 50px;
 	margin-right:200px;
 	max-height:3000px;
 }
@@ -146,6 +148,27 @@ p{
 	font-family:"candara",Sans-Serif;
 	font-size:20px; 
 	font-weight:normal;
+}
+
+.date{
+	font-family:"candara",Sans-Serif;
+	font-size:18px;
+	font-weight:normal;
+	color: gray;
+}
+
+.normalimageblue{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid DeepSkyBlue;
+}
+
+.normalimageorange{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid DeepSkyBlue;
 }
 
 a:link{/*normal unvisted link*/
